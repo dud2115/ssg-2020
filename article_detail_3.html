@@ -1,22 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8QZL06CJKE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8QZL06CJKE');
+</script>
 <meta charset="UTF-8" />
-<title>명언</title>
+<title>지식저장소</title>
 <!-- 폰트어썸 불러오기 -->
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 <link rel="stylesheet" href="app.css" />
+<meta name="google-site-verification" content="kBMgTjO9loCuIJUFRTfJvTKiT6ojjWL_x_lpxGtM-6c" />
+
+<!-- 제이쿼리 불러오기 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="body-content min-height-100vh flex flex-column">
 		<!-- 로고바 시작 -->
 		<header class="logo-bar con-min-width">
 			<div class="con height-100p flex flex-jc-c">
-				<a href="#" class="logo flex flex-ai-c">
-					<i class="fab fa-jenkins"></i>
+				<a href="./" class="logo flex flex-ai-c">
+					<i class="fas fa-book-open"></i>
 					<span>
-						Develo<span>p</span>ers
+						<span>지식</span> 저장소
 					</span>
 				</a>
 			</div>
@@ -29,7 +42,7 @@
 				<nav class="menu-bar__menu-1">
 					<ul class="flex">
 						<li>
-							<a href="./" class="block">
+							<a href="http://mycro.kr/" class="block">
 								<i class="fas fa-home"></i>
 								<span>HOME</span>
 							</a>
@@ -40,7 +53,7 @@
 								<span>ARTICLES</span>
 							</a>
 							<ul>
-								<li><a href="article_list_free_1.html" class="block"><i class="fab fa-free-code-camp"></i> <span>FREE LIST</span></a></li><li><a href="article_list_notice_1.html" class="block"><i class="fas fa-flag"></i> <span>NOTICE LIST</span></a></li>
+								<li><a href="article_list_free_1.html" class="block"><i class="fab fa-free-code-camp"></i> <span>FREE LIST</span></a></li><li><a href="article_list_free_1.html" class="block"><i class="fab fa-free-code-camp"></i> <span>FREE LIST</span></a></li><li><a href="article_list_notice_1.html" class="block"><i class="fas fa-flag"></i> <span>NOTICE LIST</span></a></li>
 							</ul>
 						</li>
 						<li>
@@ -50,16 +63,15 @@
 							</a>
 							<ul>
 								<li>
-									<a href="https://jhs512.github.io/blog/" target="_blank"
-										class="block">
+									<a href="https://ybk5836.tistory.com/" target="_blank" class="block">
 										<i class="fab fa-blogger-b"></i>
-										<span>BLOG</span>
+										<span>BLOG:)</span>
 									</a>
 								</li>
 								<li>
 									<a href="https://github.com/" target="_blank" class="block">
 										<i class="fab fa-github"></i>
-										<span>GITHUB</span>
+										<span>GITHUB:)</span>
 									</a>
 								</li>
 							</ul>
@@ -105,24 +117,18 @@
 <section class="section-1 con-min-width">
 	<div class="con">
 		<div class="article-detail">
-			<h2 class="article-detail__title">제목3</h2>
+			<h2 class="article-detail__title">안녕하세요</h2>
 
 			<div class="article-detail__sub-info flex">
 				<div class="article-detail__board-name">공지사항</div>
-				<div class="article-detail__reg-date">2020-12-18 04:14:28</div>
-				<div class="article-detail__writer">테스터1</div>
+				<div class="article-detail__reg-date">2020-12-23 11:05:20</div>
+				<div class="article-detail__writer">유병규</div>
 			</div>
 
-			<div class="article-detail__body main-font"># 공지사항
-안녕하세요.
-이 사이트는 저의 글 연재 공간입니다.
-
----
-
-# 이 사이트의 특징
-- A
-- B
-- C</div>
+			<script type="text/x-template">
+첫공지
+			</script>
+			<div class="article-detail__body main-font toast-ui-viewer"></div>
 
 			<div class="article-detail__reply-box">
 				<div id="disqus_thread"></div>

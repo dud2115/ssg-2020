@@ -133,7 +133,7 @@ a {
 }
 
 .logo>span>span {
-	color: blue;	
+	color: red;
 }
 
 .logo--mini {
@@ -143,8 +143,8 @@ a {
 
 /* 로고바 시작 */
 .logo-bar {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	height: 150px;
 }
 /* 로고바 끝 */
